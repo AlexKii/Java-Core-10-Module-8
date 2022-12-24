@@ -1,8 +1,6 @@
 package Graphic_editor.work;
 
-import Graphic_editor.Figures.Circle;
 import Graphic_editor.Intarfaces.Drawable;
-import Graphic_editor.Intarfaces.FigureBuilder;
 
 import java.util.Random;
 import java.util.*;

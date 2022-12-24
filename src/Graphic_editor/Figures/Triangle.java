@@ -3,7 +3,6 @@ package Graphic_editor.Figures;
 import Graphic_editor.Intarfaces.Color;
 import Graphic_editor.Intarfaces.Shape;
 
-import java.util.Random;
 
 public class Triangle implements Shape {
     private Color color;

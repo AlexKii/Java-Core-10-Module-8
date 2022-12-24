@@ -1,8 +1,6 @@
 package Graphic_editor.Figures;
 
 import Graphic_editor.Intarfaces.Color;
-import Graphic_editor.Intarfaces.Drawable;
-import Graphic_editor.Intarfaces.FigureBuilder;
 import Graphic_editor.Intarfaces.Shape;
 
 import java.util.Random;
