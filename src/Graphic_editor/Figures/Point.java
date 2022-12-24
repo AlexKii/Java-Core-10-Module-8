@@ -20,22 +20,21 @@ public class Point implements Drawable {
     public void draw() {
         System.out.println("Drawing Point with coordinates: X - " + getX() + ", Y - " + getY() + ", and color: " + getColor());
     }
-
     @Override
     public Color getColor() {
 
-        return Color.randomColor();
+        return color;
     }
 
     @Override
     public int getX() {
 
-        return new Random().nextInt(100);
+        return x;
     }
 
     @Override
     public int getY() {
 
-        return new Random().nextInt(100);
+        return y;
     }
 }

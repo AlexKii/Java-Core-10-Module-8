@@ -23,25 +23,27 @@ public class Triangle implements Shape {
         System.out.println("Drawing Triangle with coordinates of center: X - " + getX() + ", Y - " + getY() + ", scale: " + getScale() + " and color: " + getColor());
 
     }
-
     @Override
     public Color getColor() {
-        return Color.randomColor();
+
+        return color;
     }
 
     @Override
     public int getX() {
-        return new Random().nextInt(100);
+
+        return x;
     }
 
     @Override
     public int getY() {
-        return new Random().nextInt(100);
+
+        return y;
     }
 
     @Override
     public double getScale() {
-        return new Random().nextInt(100);
+        return scale;
     }
 
 //    public double getArea() {
