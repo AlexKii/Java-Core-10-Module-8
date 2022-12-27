@@ -12,7 +12,7 @@ public class Canvas {
         draw.draw();
     }
 }
-class CircleBuilder extends Canvas implements FigureBuilder {
+class CircleBuilder implements FigureBuilder {
 
     @Override
     public Drawable build() {
