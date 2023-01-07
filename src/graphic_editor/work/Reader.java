@@ -1,6 +1,6 @@
-package Graphic_editor.work;
+package graphic_editor.work;
 
-import Graphic_editor.Intarfaces.Drawable;
+import graphic_editor.intarfaces.Drawable;
 
 import java.util.Random;
 import java.util.*;

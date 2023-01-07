@@ -1,7 +1,7 @@
-package Graphic_editor;
+package graphic_editor;
 
-import Graphic_editor.work.Canvas;
-import Graphic_editor.work.Reader;
+import graphic_editor.work.Canvas;
+import graphic_editor.work.Reader;
 
 
 class DrawTest {

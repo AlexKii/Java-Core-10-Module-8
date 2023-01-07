@@ -1,9 +1,9 @@
-package Graphic_editor.work;
+package graphic_editor.work;
 
-import Graphic_editor.Figures.*;
-import Graphic_editor.Intarfaces.Color;
-import Graphic_editor.Intarfaces.Drawable;
-import Graphic_editor.Intarfaces.FigureBuilder;
+import graphic_editor.figures.*;
+import graphic_editor.intarfaces.Color;
+import graphic_editor.intarfaces.Drawable;
+import graphic_editor.intarfaces.FigureBuilder;
 
 import java.util.Random;
 

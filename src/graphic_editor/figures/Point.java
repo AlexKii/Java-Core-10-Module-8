@@ -1,9 +1,7 @@
-package Graphic_editor.Figures;
+package graphic_editor.figures;
 
-import Graphic_editor.Intarfaces.Color;
-import Graphic_editor.Intarfaces.Drawable;
-
-import java.util.Random;
+import graphic_editor.intarfaces.Color;
+import graphic_editor.intarfaces.Drawable;
 
 public class Point implements Drawable {
     private Color color;

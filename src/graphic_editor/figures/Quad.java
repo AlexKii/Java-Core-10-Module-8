@@ -1,17 +1,15 @@
-package Graphic_editor.Figures;
+package graphic_editor.figures;
 
-import Graphic_editor.Intarfaces.Color;
-import Graphic_editor.Intarfaces.Shape;
+import graphic_editor.intarfaces.Color;
+import graphic_editor.intarfaces.Shape;
 
-import java.util.Random;
-
-public class Trapeze implements Shape {
+public class Quad implements Shape {
     private Color color;
     private int x;
     private int y;
     private double scale;
 
-    public Trapeze(Color color, int x, int y, double scale) {
+    public Quad(Color color, int x, int y, double scale) {
         this.color = color;
         this.x = x;
         this.y = y;
@@ -20,8 +18,7 @@ public class Trapeze implements Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing Trapeze with coordinates of center: X - " + getX() + ", Y - " + getY() + ", scale: " + getScale() + " and color: " + getColor());
-
+        System.out.println("Drawing Quad with coordinates of center: X - " + getX() + ", Y - " + getY() + ", scale: " + getScale() + " and color: " + getColor());
     }
 
     @Override
@@ -48,8 +45,7 @@ public class Trapeze implements Shape {
     }
 
 //    public double getArea() {
-//        return (sideUpper + sideBottom) / 2 * height;
+//        return Math.pow(side, 2);
 //    }
 
 }
-

@@ -1,4 +1,4 @@
-package Graphic_editor.Intarfaces;
+package graphic_editor.intarfaces;
 
 import java.util.Random;
 
